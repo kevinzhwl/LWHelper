@@ -1,0 +1,96 @@
+# GITIGNORE PROJECT
+# 目的是建立一个适用常见的工程.gitignore文件
+# =============================================
+# .gitignore 基本语法
+# #起始的行都是注释行
+# foo.txt 忽略指定文件名
+# *.html 忽略一类文件
+# !foo.html 指定例外 不会被忽略
+# *.[oa] 忽略所有.o 和.a的文件
+# =============================================
+# 更新记录
+# 增加VCS目录
+# =============================================
+
+# VCS directory
+.svn/
+.hg/
+.git/
+
+# Qt project
+*-build-*/
+build/
+*.pro.user
+
+# OS junk
+[Tt]humbs.db
+*.tmp
+*.bak
+*.log
+~$*
+
+# VC temporary files
+[Dd]ebug*/
+[Rr]elease*/
+*.pdb
+*.tlb
+*.tli
+*.tlh
+*.obj
+*.ilk
+*.tlog
+*.manifest
+*.res
+*.pch
+*.bak
+#activex
+*_i.c
+*_p.c
+
+# VS6 project
+*.aps
+*.ncb
+*.clw
+*.plg
+*.opt
+*.bsc
+*.sbr
+
+# VS2008 project
+*.aps
+*.ncb
+*.[Cc]ache
+*.unsuccessfulbuild
+# vc9 user project (it depends)
+*.vcproj.*.*.user
+# csharp
+[Bb]in/
+obj/
+_ReSharper*/
+#vs upgrade files
+*.old
+UpgradeLog.XML
+_UpgradeReport_Files/
+
+# VS2010 project
+*.suo
+*.sdf
+*.opensdf
+ipch/
+*.ipch
+
+# test result
+[Tt]est[Rr]esults/
+[Tt]est[Rr]esult*
+
+# visual source safe
+*.scc
+*.vspscc
+*.vssscc
+
+#customize 
+test_*.*
+tmp*.*
+
+
+
